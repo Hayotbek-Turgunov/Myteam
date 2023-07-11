@@ -75,14 +75,26 @@ ul{
   text-decoration: none;
   font-weight: 600;
 }
-
+.sitenav-link:hover{
+  color: #F67E7E;
+}
 .site-btn{
   padding: 10px 32px;
   color: #fff;
   text-decoration: none;
   border: 2px solid white;
   border-radius: 32px;
+  font-family: "Semi-bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 
+}
+
+.site-btn:hover{
+  background-color: #fff;
+  color: black;
 }
 
 /* Hero */
@@ -333,6 +345,10 @@ ul{
   font-weight: 600;
   line-height: 28px;
 }
+
+.site-footer-link ul li a:hover{
+  color: #F67E7E;
+}
 .site-footer-link ul li:last-child{
   margin-left: 40px;
 }
@@ -369,7 +385,9 @@ ul{
 .site-footer-icon-link:last-child{
   margin-left: 0px;
 }
-
+.fa-brands:hover{
+  color: #F67E7E;
+}
 .site-footer-copy{
   color:#99A8A9FF ;
   text-align: right;
@@ -414,14 +432,14 @@ ul{
     font-size: 15px;
     line-height: 28px;
   }
- .hero{
-  padding-bottom: 10px;
- }
+  .hero{
+    padding-bottom: 10px;
+  }
 
- .manage{
-  padding-top: 30px;
-  padding-bottom: 20px;
- }
+  .manage{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
   .manage-content{
     width: 100%;
     margin-bottom: 64px;
