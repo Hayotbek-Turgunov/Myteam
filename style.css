@@ -192,29 +192,29 @@ ul{
 
 .manage-servise-main-content h3{
   color: #F67E7E;
-font-family: "Bold";
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px;
-margin-bottom: 15px;
+  font-family: "Bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 
 .manage-servise-main-content p{
-color: #FFF;
-font-family: "Semi-bold";
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px;
+  color: #FFF;
+  font-family: "Semi-bold";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
 }
 
 /* Stories */
 
 .stories {
- padding-top: 140px;
- padding-bottom: 140px;
- background-color: #004047;;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;;
 
 }
 .stories-heading {
@@ -244,24 +244,24 @@ line-height: 25px;
   width: 30%;
 }
 .stories-card-text {
-color: #FFF;
-text-align: center;
-font-family: "Semi-bold";
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px;
-margin-bottom: 24px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Semi-bold";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 24px;
 }
 .stories-card-heading {
   margin-top: 0;
   color: #79C8C7;
-text-align: center;
-font-family: "Bold";
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px;
+  text-align: center;
+  font-family: "Bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
 }
 .stories-card span{
   color: #FFF;
@@ -293,11 +293,11 @@ line-height: 28px;
 
 .cta-heading{
   color: #012F34;
-font-family: "Bold";
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 48px;
+  font-family: "Bold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
 }
 .cta-btn {
   padding: 10px 32px;
@@ -309,7 +309,7 @@ line-height: 48px;
   line-height: 28px;
   text-decoration: none;
   border-radius: 24px;
-border: 2px solid #012F34;
+  border: 2px solid #012F34;
 }
 
 .site-footer{
@@ -327,11 +327,11 @@ border: 2px solid #012F34;
 .site-footer-link ul li a{
   text-decoration: none;
   color: #FFF;
-font-family:"Semi-bold";
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
+  font-family:"Semi-bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 .site-footer-link ul li:last-child{
   margin-left: 40px;
@@ -344,11 +344,11 @@ line-height: 28px;
 }
 .site-footer-lang ul li {
   color: #99A8A9FF;
-font-family: "Semi-bold";
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px;
+  font-family: "Semi-bold";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
 }
 .site-footer-icon-list{
   display: flex;
@@ -414,7 +414,14 @@ line-height: 25px;
     font-size: 15px;
     line-height: 28px;
   }
+ .hero{
+  padding-bottom: 10px;
+ }
 
+ .manage{
+  padding-top: 30px;
+  padding-bottom: 20px;
+ }
   .manage-content{
     width: 100%;
     margin-bottom: 64px;
@@ -429,13 +436,19 @@ line-height: 25px;
   .manage-servise{
     width: 100%;
   }
+  .stories{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .stories-heading{
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 50px;
   }
   .stories-card{
     width: 100%;
-    margin-bottom: 84px;
+    margin-bottom: 60px;
   }
   .stories-card:last-child{
     margin-bottom: 0;
@@ -451,15 +464,15 @@ line-height: 25px;
     justify-content: center;
     flex-wrap: wrap;
   }
-   .site-footer-link{
+  .site-footer-link{
     width: 100%;
     margin-bottom: 20px;
-   }
-   .site-footer-lang{
+  }
+  .site-footer-lang{
     width: 100%;
     margin-bottom: 20px;
-   }
-   .site-footer-icon{
+  }
+  .site-footer-icon{
     width: 100%;
     position: relative;
     right: 120px;
@@ -496,7 +509,7 @@ line-height: 25px;
     font-size: 15px;
   }
   .site-header{
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
   .cta-heading{
@@ -517,10 +530,15 @@ line-height: 25px;
     line-height: 40px;
   }
 
-   .manage-servise-main {
+  .manage-servise-main {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-   }
+    position: relative;
+    left: -10px;
+  }
+  .site-header-container{
+    padding-bottom: 80px;
+  }
 
 }
